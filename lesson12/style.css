@@ -1,0 +1,36 @@
+div {
+    height: 42px;
+	border: none;
+	background: #3a7999;
+	color: #f2f2f2;
+	padding: 5px;
+	font-size: 18px;
+	border-radius: 25px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+    cursor: auto;
+}
+
+div:before {
+	content:'';
+	position:fixed;
+	top: 10; */
+	left: 0;
+	width: 0;
+	height: 30px;
+	background: rgba(255, 0, 0, 0.3);
+	border-radius: 50px;
+	transition: all 1s ease;
+    cursor: auto;
+
+}
+
+div:hover:before {
+	width: 97%;
+    cursor: auto;
+    border-radius: 50px;
+}
+.opred{
+    background-color: black;
+}
